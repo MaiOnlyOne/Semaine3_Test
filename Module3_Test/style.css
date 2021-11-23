@@ -46,10 +46,12 @@ body{
     text-align: center;
     font-weight: bold;
     margin-top: 1rem;
+    background-color:rgb(104, 231, 240);
 }
 .menu-detail{
     margin-top: 1rem;
     text-align: center;
+    background-color:rgb(104, 231, 240);
     
 }
 .menu-box1{
