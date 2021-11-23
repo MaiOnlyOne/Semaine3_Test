@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/Module3_Test/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/Module3_Test/node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/Module3_Test/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Module3_Test</title>
+</head>
+<body>
+    <header>
+        <nav id="nav-food" class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                    <div class="navbar-brand">
+                        <h1>Food, LLC</h1>
+                    </div>
+                    <!--le bouton collapse pour gerer le menu en mode mobile-->
+                    <button class="bouton-nav navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+               
+                
+                  <!--menu de la liste deroulante-->
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav-list navbar-nav d-block d-md-none">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Chicken
+                            <hr class=" seperate-menu d-block d-md-none">
+                          </a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Beef
+                            <hr class=" seperate-menu d-block d-md-none">
+                          </a>
+                        </li>
+                       
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Meet</a>
+                        </li>
+                      </ul>
+                  </div>
+            </div>
+
+        </nav>
+    </header><!--end header-->
+
+    <!--le main-container-->
+    <div class="container overflow-hidden" id="main-content">
+        <div class="main-title">Our Menu</div>
+        <!--row qui va contenir la description des differents menus-->
+        <section class="menu row gx-2">
+            <!--chicken-->
+            <div class="menu-box1 col-md-4 col-sm-6 col-xs-12">
+                <div class="menu-title">Chicken</div>
+                <div class="menu-detail">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos explicabo maiores voluptas, impedit harum cumque est voluptates unde omnis facilis nobis, ullam rem dolorem. Veniam quae laudantium reprehenderit omnis laboriosam!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur veritatis recusandae obcaecati a corrupti! Aperiam minima quidem laborum excepturi voluptatum neque eius nisi. Blanditiis, nisi corporis. Amet quidem delectus ex.
+                </div>
+
+            </div>
+            <!--Beef-->
+            <div class="menu-box2 col-md-4 col-sm-6 col-xs-12">
+                <div class="menu-title">Beef</div>
+                <div class="menu-detail">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos explicabo maiores voluptas, impedit harum cumque est voluptates unde omnis facilis nobis, ullam rem dolorem. Veniam quae laudantium reprehenderit omnis laboriosam!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur veritatis recusandae obcaecati a corrupti! Aperiam minima quidem laborum excepturi voluptatum neque eius nisi. Blanditiis, nisi corporis. Amet quidem delectus ex.
+                </div>
+                
+            </div>
+            <!--sushi-->
+            <div class="menu-box3 col-md-4 col-sm-12 col-xs-12">
+                <div class="menu-title">sushi</div>
+                <div class="menu-detail">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos explicabo maiores voluptas, impedit harum cumque est voluptates unde omnis facilis nobis, ullam rem dolorem. Veniam quae laudantium reprehenderit omnis laboriosam!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur veritatis recusandae obcaecati a corrupti! Aperiam minima quidem laborum excepturi voluptatum neque eius nisi. Blanditiis, nisi corporis. Amet quidem delectus ex.
+                </div>
+                
+            </div>
+        </section>
+       
+
+    
+    </div>
+
+    <!--script-->
+    <script src="/Module3_Test/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/Module3_Test/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
